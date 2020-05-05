@@ -1,0 +1,68 @@
+.vk-friends {
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+
+.friends {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border-right: 2px solid #f0f0f0;
+  width: 50%;
+  padding: 10px;
+   
+}
+
+.wrap-friends {
+    overflow-y: auto;
+}
+
+.friends:last-child {
+    border-right: 0px;
+  }
+
+.friend-item:last-child {
+    border-bottom: 0; 
+}
+
+.title {
+    padding: 10px;
+    border-bottom: 2px solid #f0f0f0; 
+}
+
+.person-description {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: 2px solid #f0f0f0;
+    font-style: 'Ubuntu';
+    font-size: 16px; 
+    font-weight: 700;
+}
+
+.person-description:hover {
+    background-color: #f0f0f0;
+}
+.person__name {
+    display: flex;
+    align-items: center;
+    width: 98%;
+}
+
+.person__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   	width: 50px;
+	height: 50px;
+	max-width: 6.25rem;
+	border-radius: 50%;
+    overflow: hidden; 
+    margin-right: 10px;
+}

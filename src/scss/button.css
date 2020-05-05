@@ -1,0 +1,68 @@
+.header__button {
+	display: flex;
+	align-items: center;
+	width: 2%;
+	cursor: pointer;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.header__button:hover {
+	opacity: 0.4;
+}
+
+.button-add {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: transparent;
+	outline-color: transparent;
+	cursor: pointer;
+    
+}
+
+.button-add:hover {
+	opacity: 0.4;
+}
+
+.button-remove {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: transparent;
+	outline-color: transparent;
+	cursor: pointer;
+    
+}
+
+.button-remove:hover {
+	opacity: 0.4;
+}
+
+.button__save {
+	display: inline-block;
+	border: 1px solid #fff;
+	background-color: cornflowerblue;
+	color: #fff;
+	padding: 10px 35px;
+	font-family: "Ubuntu";
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 20px;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}	
+
+.button__save:hover {
+	background-color: #fff;
+	color: cornflowerblue;
+
+}

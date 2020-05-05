@@ -1,0 +1,19 @@
+{{#each items}}
+<li class="friend-item" data-id={{id}} draggable="true">
+    <div class="person-description">
+        <div class="person__name">
+            <img class="person__img" src="{{photo_100}}" alt="photo person">
+            <p>{{first_name}} {{last_name}}</p>
+        </div>
+        {{#if  ../flag}}
+        <button class="button-add">
+            <img class="" src="./img/btn-add.png" alt="button added">
+        </button>
+        {{else}}
+        <button class="button-remove">
+            <img class="" src="./img/btn-delete.png" alt="button deleted">
+        </button>
+        {{/if}}
+    </div>
+</li>
+{{/each}}

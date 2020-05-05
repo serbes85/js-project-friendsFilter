@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://vk.com/js/api/openapi.js"></script>
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Friends filter</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section">
+            <div class="img">
+                <img class="img__filter" src="./img/friendsFilter.png" alt="pucture friends filter">
+            </div>
+            <div class="filter">
+                <header class="header">
+                    <div class="header__title">
+                        <p>Выберите друзей</p>
+                    </div>
+                    <div class="header__button">
+                        <img class="button-close" src="./img/btn-close.png" alt="button close">
+                    </div>
+                </header>
+                <form class="form-search">
+                    <div class="friend-search">
+                        <input type="text" name="search_friend" id="searchLeft" placeholder="Начните вводить имя друга"
+                            class="input">
+                    </div>
+                    <div class="friend-search">
+                        <input type="text" name="search_friend" id="searchRight" placeholder="Имя Фамилия"
+                            class="input">
+                    </div>
+                </form>
+                <div class="vk-friends">
+                    <div class="friends">
+                        <h2 class="title">Ваши друзья</h2>
+                        <div class="wrap-friends">
+                            <ul id="friends-list" class="friend-list"></ul>
+                        </div>
+                    </div>
+                    <div class="friends">
+                        <h2 class="title">Друзья в списке</h2>
+                        <div class="wrap-friends">
+                            <ul id="friends-filtered" class="friend-list"></ul>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <button class="button__save" type="submit">Cохранить</button>
+                </footer>
+            </div>
+        </section>
+    </div>
+    <script src="./friendsFilter.js"></script>
+</body>
+
+</html>
