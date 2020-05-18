@@ -14,7 +14,7 @@ function closeFilter() {
 }
 
 VK.init({
-  apiId: 7417370,
+  apiId: #######,
 });
 
 function auth() {
