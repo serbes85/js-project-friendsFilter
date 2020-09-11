@@ -6,16 +6,16 @@
 - Cостояние приложения можно сохранить в LocalStorage
 
 ## Технологии
-JavaScript
-Handlebars
-SCSS
-VK API
-WebPack 3
-DnD
+- JavaScript
+- Handlebars
+- SCSS
+- VK API
+- WebPack 3
+- DnD
 
 ## Старт проекта
 
-Склонируйте репозиторий и перейдите в папку проекта
+- Склонируйте репозиторий и перейдите в папку проекта
 git clone https://github.com/serbes85/js-project-friendsFilter.git
 
 - Установите модули локально
